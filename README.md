@@ -1,8 +1,9 @@
 # Flower-species-Recognition-using-Computer-vision-and-Machine-Learning
 
-##Project idea
+###Project idea
 
 What if -
+
 ● You build an intelligent system that was trained with massive dataset of
 flower/plant images.
 
@@ -28,7 +29,7 @@ Yeah! It is classifying a flower/plant into it’s corresponding class or catego
 example, when our awesome intelligent assistant looks into a Sunflower image, it must
 label or classify it as a “Sunflower”.
 
-##Aim
+###Aim
 
 Our aim from the project is to understand how to use Deep Learning models to solve a
 Supervised Image Classification problem.
@@ -36,13 +37,13 @@ Supervised Image Classification problem.
 We will be using the pre-trained Deep Neural Nets trained on the ImageNet challenge
 that are made publicly available in Keras.
 
-##Dataset
+###Dataset
 
 We will specifically use FLOWERS17 dataset of University of Oxford. This dataset is a
 highly challenging dataset with 17 classes of flower species, each having 80 images.
 So, totally we have 1360 images to train our model.
 
-##Feature extraction using Deep Convolutional Neural Networks
+###Feature extraction using Deep Convolutional Neural Networks
 
 The pre-trained models we will consider are VGG16, VGG19, Inception-v3, Xception,
 ResNet50, InceptionResNetv2 and MobileNet. Instead of creating and training deep
@@ -69,7 +70,7 @@ scratch (which is time-consuming and tedious), a pre-trained CNN co
 We find the documentation and GitHub repo of Keras well maintained and easy to
 understand.
 
-##Training and Testing
+###Training and Testing
 
 After extracting, concatenating and saving features and labels from our training dataset
 using ConvNets, it’s time to train our system. To do that, we need to create our Machine
@@ -93,7 +94,7 @@ Finally, we train each of our machine learning model and check the cross-validat
 results and take the best machine learning model.
 Finally this trained machine learning model will be predicted on the unseen data.
 
-##Dependencies
+###Dependencies
 
 We will need the following Python packages to do the project.
 
@@ -119,7 +120,7 @@ features to further train our machine learning models.
 ● Pickle - We will make use of it to save our machine learning models to file and
 load it later in order to make predictions
 
-##Conclusion
+###Conclusion
 
 To learn to use the pre-trained Deep Convolutional Neural Nets to extract features from
 the images with keras.
